@@ -14,3 +14,4 @@ def handler(event, context):
     # url = "https://api.lifx.com/v1/lights/{}".format(selector)
     # r = requests.put(url+'/state', data=build_payload('on'), headers=headers)
     # print(r.json())
+    return {'statusCode': 200, 'body': 'worked\n'}
